@@ -5,4 +5,4 @@ variable "tags" {}
 variable "env" {}
 variable "instance_type" {}
 variable "subnet_ids" {}
-variable "zone_id" {}
+#variable "zone_id" {}
