@@ -36,7 +36,7 @@ resource "aws_instance" "main" {
 }
 #resource "aws_route53_record" "main" {
 #  zone_id = var.zone_id
-#  name    = "rabbitmq"
+#  name    = "rabbitmq-dev"
 #  type    = "A"
 #  ttl     = 30
 #  records = [aws_instance.main.private_ip]
